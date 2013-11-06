@@ -1,0 +1,2 @@
+Main-class: scUpdate2v5
+Class-Path: lib/RXTXcomm.jar

@@ -1,0 +1,3 @@
+-Djava.class.path=;${SELF_HOME}\classes\scUpdate3v1.jar;${SELF_HOME}\classes\RXTXcomm.jar;
+janel.main.class=scUpdate3v1
+janel.library.path.dir=${SELF_HOME}\lib

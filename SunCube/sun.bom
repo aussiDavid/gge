@@ -1,0 +1,63 @@
+
+
+%*********************************************************************
+%                                                                    *
+%     Program  :   PC-FORM VERSION 8.5                               *
+%     Date     :   Dec 14 2007                                       *
+%     Time     :   10:18:24 AM                                       *
+%     File In  :   sun.pnl                                           *
+%     File Out :   sun.mat                                           *
+%     Format   :   P-CAD MATERIALS LIST                              *
+%                                                                    *
+%*********************************************************************
+
+
+
+
+ITEM  QTY  PART-NAME  REFERENCE-DESIGNATOR       DESCRIPTION
+----  ---  ---------  --------------------       -----------
+
+
+1     1    lm78xxct   U2                        V=LM7812CT  
+
+2     1    lm78xxct   U3                        V=LM7805CT  
+
+3     3    2adiode    V4 V17 V2                 V=1N5822  
+
+4     7    n05025i2   C5 C1 C7 C8 C2 C3 C10     V=100n  
+
+5     1    cta45452   C6                        V=47u/10V_Tant  
+
+6     2    pr16075    C4 C9                     V=4700u/25V  
+
+7     1    n06525     R1                        V=6k8  
+
+8     1    n06525     R20                       V=1k/0.6W  
+
+9     2    n06525     R22 R21                   V=4k7  
+
+10    14   n06525     R2 R9 R10 R11 R12 R13     V=1k  
+                      R14 R15 R16 R3 R4 R5      
+                      R6 R8                     
+
+11    3    n06525     R7 R19 R18                V=100R  
+
+12    1    n22080     R17                       V=0.1R/5W  
+
+13    3    cha06ssb   X3 X5 X4                  V=JST_6WAY  
+
+14    4    fetp       V11 V5 V7 V9              V=IRF9540  
+
+15    4    bc548      V13 V14 V15 V16           V=BC548  
+
+16    4    fetn       V8 V10 V12 V6             V=IRF540  
+
+17    1    zener1w    V3                        V=15V/1W  
+
+18    1    chb02sso   J1                        V=2PIN_RESET_HDR  
+
+19    1    pic16f88   U1                        V=PIC16F88  
+
+20    2    cha02ssb   X1 X2                     V=JST_2WAY  
+
+21    2    1n4007     V18 V19                   V=1N4007  

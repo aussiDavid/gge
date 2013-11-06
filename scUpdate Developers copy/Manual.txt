@@ -1,0 +1,20 @@
+Instructions (for windows)
+---------------------------------------
+Installing Java on the current machine.
+
+Goto: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+      to download the latest JRE (Java Runtime Enviroment) @ approx 15MB.
+Click "Download JRE"
+Select the "Windows" platform
+Click continue down the bottom
+Click "jre-6u22-windows-i586.exe" (the number 22 in jre-6u22 represents the version number. This may change over time)
+
+User Manual:
+-------------------------------
+Double click the Suncube Updater to start
+
+*
+Ensure time and date on current computer is set to the correct time-zone, time and date.
+Suncube Updater uses current date and time for the input.
+Please do not make any changes to the 'src' folder without permission
+*

@@ -1,0 +1,30 @@
+Instructions (for windows)
+---------------------------------------
+Installing Java on the current machine.
+
+Goto : http://www.oracle.com/technetwork/java/javase/downloads/index.htmlTto download the latest JRE (Java Runtime Enviroment).
+Click Download JRE
+Select correct platform (i.e Windows)
+Click continue down the bottom
+Click "jre-6u21-windows-i586.exe" (the number 21 in jre-6u21 represents the version number. This may change over time)\
+Download and Install
+
+for(32-bit users)
+-----------------
+In the scUpdate folder double click on "RXTXdll.exe" and "RXTXlib.exe" to run them
+
+for(64-bit users)
+In the scUpdate folder double click on "RXTXdll(x86).exe" and "RXTXlib(x86).exe" to run them
+
+this will extract some libary files into your computer
+
+User Manual:
+-------------------------------
+find "<version number>scUpdate.jar" inside one of the folders inside scUpdate
+please use the lastest version unless told otherwise
+
+*
+Ensure time and date on current computer is set to the correct time-zone, time and date.
+scUpdate uses current date and time for the input.
+*
+

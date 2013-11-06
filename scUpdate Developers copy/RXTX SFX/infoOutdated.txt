@@ -1,0 +1,32 @@
+Instructions (for windows)
+---------------------------------------
+On the current computer see if there is a "java" folder in the program files or program files (x86)
+there should be a folder with the title something "jdk1.6.0_21". it should start with JDK.
+
+  IF NOT! download and install:
+  http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  > Click Download
+  > Select Platform, then continue (down the bottom)
+  > Click "jdk-6u21-windows-i586.exe". the filename may change over time. But this it will be the latetest version
+  > Download and install
+  It is a java develpoment kit (JDK) it contains all the libary and java files for java applications.
+
+if the folder exists copy "rxtxSerial.dll" and "rxtxParallel.dll" into the "bin" folder of the "jdk1.6.0..." folder
+go back to the previous folder, copy "RXTXcomm.jar" into the ...\jre\lib\ext folder.
+
+repeat the prevoius instruction for the "jre6" folder that is also found in the "C:\program files\java" folder. copy "RXTXcomm.jar" into "/lib/ext"
+
+ONLY NEED TO DO THINS ONCE!
+
+Summary:
+copy "rxtxSerial.dll" and "rxtxParallel.dll" to C:\Program Files\java\jdk1.6.0_..\bin and to C:\Program Files\java\jre6\bin
+copy ""RXTXcomm.jar" to C:\Program Files\java\jdk1.6.0_..\lib\ext and C:\Program Files\java\jre6\lib\ext
+
+User notice:
+*
+goto device manager
+find the available COM PORTS that you can use in the application
+
+Ensure time and date on current computer is set to the correct time-zone, time and date. scUpdate uses current date and time for the input.
+*
+
